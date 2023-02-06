@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "author": "GavinHe322",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinHe322/mini-vue3.git"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/GavinHe322/mini-vue3#readme"
+}
