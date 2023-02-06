@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "ES2016",
+    "module": "ESNext",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "lib": ["ESNext", "DOM"],
+    "types": [],
+    "paths": {
+      "@gavinshuer/*": ["packages/*/src"]
+    }
+  },
+  "include": ["packages/*/src"]
+}
