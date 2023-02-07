@@ -2,9 +2,11 @@
   "name": "@gavinshuer/reactivity",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@gavinshuer/shared": "workspace:^1.0.0"
+  }
 }

@@ -1,0 +1,12 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/reactivity:
+    specifiers:
+      '@gavinshuer/shared': workspace:^1.0.0
+    dependencies:
+      '@gavinshuer/shared': link:../shared
