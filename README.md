@@ -5,8 +5,8 @@
 **按照各个项目依赖顺序**
 
 - [x] @mini-vue/shared
-- [ ] @mini-vue/reactivity
-- [ ] @mini-vue/runtime-core
+- [x] @mini-vue/reactivity
+- [x] @mini-vue/runtime-core
 - [ ] @mini-vue/runtime-dom
 
 ### @mini-vue/shared

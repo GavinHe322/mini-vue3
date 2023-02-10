@@ -10,3 +10,9 @@ importers:
       '@gavinshuer/shared': workspace:^1.0.0
     dependencies:
       '@gavinshuer/shared': link:../shared
+
+  packages/runtime-core:
+    specifiers:
+      '@gavinshuer/shared': workspace:^1.0.0
+    dependencies:
+      '@gavinshuer/shared': link:../shared
