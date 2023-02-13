@@ -16,3 +16,14 @@ importers:
       '@gavinshuer/shared': workspace:^1.0.0
     dependencies:
       '@gavinshuer/shared': link:../shared
+
+  packages/runtime-dom:
+    specifiers:
+      '@gavinshuer/runtime-core': workspace:^1.0.0
+      '@gavinshuer/shared': workspace:^1.0.0
+    dependencies:
+      '@gavinshuer/runtime-core': link:../runtime-core
+      '@gavinshuer/shared': link:../shared
+
+  packages/shared:
+    specifiers: {}

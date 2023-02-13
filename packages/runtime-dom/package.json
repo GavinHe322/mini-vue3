@@ -1,5 +1,5 @@
 {
-  "name": "@gavinshuer/runtime-core",
+  "name": "@gavinshuer/runtime-dom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@gavinshuer/runtime-core": "workspace:^1.0.0",
     "@gavinshuer/shared": "workspace:^1.0.0"
   }
 }
