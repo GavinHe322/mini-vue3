@@ -7,8 +7,8 @@
 - [x] @mini-vue/shared
 - [x] @mini-vue/reactivity
 - [x] @mini-vue/compiler-core
-- [ ] @mini-vue/runtime-core
-- [ ] @mini-vue/runtime-dom
+- [x] @mini-vue/runtime-core
+- [x] @mini-vue/runtime-dom
 
 ### @mini-vue/shared
 
