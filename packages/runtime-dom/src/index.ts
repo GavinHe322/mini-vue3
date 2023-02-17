@@ -1,5 +1,5 @@
 import { isOn } from '@gavinshuer/shared'
-import { createRenderer } from '@gavinshuer/runtime-core'
+import { createRenderer } from '@gavinshuer/compiler-core'
 
 function createElement(type) {
   console.log('reateElement', type)

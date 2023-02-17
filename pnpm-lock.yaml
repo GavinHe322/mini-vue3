@@ -13,8 +13,10 @@ importers:
 
   packages/runtime-core:
     specifiers:
+      '@gavinshuer/reactivity': workspace:^1.0.0
       '@gavinshuer/shared': workspace:^1.0.0
     dependencies:
+      '@gavinshuer/reactivity': link:../reactivity
       '@gavinshuer/shared': link:../shared
 
   packages/runtime-dom:
