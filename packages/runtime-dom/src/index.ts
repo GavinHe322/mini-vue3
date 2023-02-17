@@ -1,5 +1,5 @@
 import { isOn } from '@gavinshuer/shared'
-import { createRenderer } from '@gavinshuer/compiler-core'
+import { createRenderer } from '@gavinshuer/runtime-core'
 
 function createElement(type) {
   console.log('reateElement', type)
@@ -77,8 +77,20 @@ function ensureRenderer() {
   // 如果 renderer 有值的话，那么以后都不会初始化了
   return (
     renderer ||
-    (renderer = createR)
+    (renderer = createRenderer({
+      createElement,
+      createText,
+      setText,
+      setElementText,
+      patchProp,
+      insert,
+      remove
+    }))
   )
 }
 
+export const createApp = (...args) => {
+  return ensureRenderer().createApp(...args)
+}
 
+export * from '@gavinshuer/runtime-core'
