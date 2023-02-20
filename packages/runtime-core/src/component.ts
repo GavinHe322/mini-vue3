@@ -90,7 +90,7 @@ function createSetupContext(instance) {
     attrs: instance.attrs,
     slots: instance.slots,
     emit: instance.emit,
-    expose: () => // TODO 实现 expose 函数逻辑
+    expose: () => {} // TODO 实现 expose 函数逻辑
   }
 }
 

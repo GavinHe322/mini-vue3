@@ -25,7 +25,7 @@ export const createVNode = function (
 
   // 基于 children 再次设置 shapeFlag
   if (Array.isArray(children)) {
-    vnode.shapeFlag |= ShapeFlags.ARRAT_CHILDREN
+    vnode.shapeFlag |= ShapeFlags.ARRAY_CHILDREN
   } else if (typeof children === 'string') {
     vnode.shapeFlag |= ShapeFlags.TEXT_CHILDREN
   }
