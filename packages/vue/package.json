@@ -1,0 +1,20 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "keywords": [],
+  "author": "GavinHe322",
+  "license": "ISC",
+  "dependencies": {
+    "@gavinshuer/compiler-core": "workspace:^1.0.0",
+    "@gavinshuer/runtime-dom": "workspace:^1.0.0",
+    "@gavinshuer/shared": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
